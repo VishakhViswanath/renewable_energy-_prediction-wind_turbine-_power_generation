@@ -67,4 +67,16 @@ Although the R² value is relatively low, the model performs reasonably well for
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/wind-turbine-power-prediction.git
+   git clone https://github.com/VishakhViswanath/renewable_energy_prediction-wind_turbine_power_generation.git
+
+2. Conclusion
+
+This project demonstrates the use of XGBoost Regressor to predict wind turbine power generation based on historical environmental and operational data. While wind speed was identified as the most significant factor influencing power generation, the model could be further improved with more refined features and additional data sources. The R² value of 0.045 and MAPE of 3.975% provide an initial baseline for forecasting energy production.
+
+3. Future Work
+Explore additional features and external data sources (e.g., weather forecasts, seasonal patterns).
+Improve the model by experimenting with different algorithms and hyperparameter tuning.
+Optimize the prediction of monthly wind patterns to better align with operational planning.
+
+4. Acknowledgements
+    Libraries used: XGBoost, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn.
